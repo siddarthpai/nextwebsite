@@ -5,8 +5,12 @@ import Image from "next/image";
 
 const Works = () =>(
     <TileWrapper numOfPages={3}>
-        <TileBackground><WorkBackground/></TileBackground>
-        <TileContent>
+        <TileBackground page={0} renderContent={function (props: { progress: number; }) {
+            throw new Error("Function not implemented.");
+        } }><WorkBackground/></TileBackground>
+        <TileContent page={0} renderContent={function (props: { progress: number; }) {
+            throw new Error("Function not implemented.");
+        } }>
             <Tile 
             page={0} 
             renderContent={({progress}) => (
