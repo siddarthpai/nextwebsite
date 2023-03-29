@@ -33,14 +33,14 @@ const Skills: React.FC = () => {
                     <div className={s.skillText} style={{ opacity: opacityForBlock(progress, 0)
 
                     }}>We know our Trends Inside Out!</div>
-                    <span className={` ${s.skillText} inline-block after:content-['_']`} style={{ opacity: opacityForBlock(progress, 0)
+                    <div className={` ${s.skillText} inline-block after:content-['_']`} style={{ opacity: opacityForBlock(progress, 1)
 
-                    }}> Our team effortlessly works to get the latest trends In and keep your wadrobe upto date.</span>
-                    <span className={` ${s.skillText} inline-block `} style={{ opacity: opacityForBlock(progress, 0)
+                    }}> Our team effortlessly works to get the latest trends In and keep your wadrobe upto date.</div><br/>
+                    <div className={`${s.skillText} inline-block`} style={{ opacity: opacityForBlock(progress, 2)
 
                     }}>
                         We&apos;re a realtively new fashion company with a growing userbase of upto <strong>1000 users</strong>
-                    </span>
+                    </div><br/>
                 </div>
                 </div>
         </div>
