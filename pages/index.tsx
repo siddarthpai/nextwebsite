@@ -5,6 +5,7 @@ import Masthead from '../components/masthead'
 import AboutUs from '../components/aboutus'
 import Skills from '../components/skills'
 import Works from '@/components/works'
+import TrustedBy from '@/components/trustedby'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function Home() {
       <AboutUs/>
       <Skills/>
       <Works/>
+      <TrustedBy/>
     </div>
   )
 }

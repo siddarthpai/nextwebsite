@@ -24,7 +24,7 @@ const Masthead: React.FC = () => {
                 <source src="/assets/bg.webm" type="video/webm; codecs=vp9"/>
             </video>
             <div className={`flex-grow-0 pt-10 transition-opacity duration-1000`}>
-                <Image src="/assets/logo.svg" width={128 / 3} height={114 / 3} alt="logo"></Image>
+                <Image src="/assets/logo.svg" width={128 / 3} height={114 / 3} alt="logo"/>
             </div>
             
             <div className="p-12 font-bold font-Varela Round z-10 text-white drop-shadow-[0_5px_3px_rgba(0,0,0,0.4)] text-center flex-1 flex items-center justify-center flex-col">
