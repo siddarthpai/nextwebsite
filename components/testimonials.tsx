@@ -24,13 +24,8 @@ const Testimonials: React.FC = () =>
         </Review>
     </CarouselItem>
     <CarouselItem index={3}>
-        <Review by="kaasu">
-            SidPai gay fr
-        </Review>
-    </CarouselItem>
-    <CarouselItem index={4}>
-        <Review by="sidpai">
-            safe
+        <Review by="Siddarth Pai">
+            Really high quality goods which are worth the cost!
         </Review>
     </CarouselItem>
 </Carousel>
